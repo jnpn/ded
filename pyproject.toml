@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ded"
+version = "0.0.0"
+description = "find unused source files"
+authors = ["jnpn <johan.ponin.pro@gmail.com>"]
+license = "AGPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.7.0"
+ipython = "^8.14.0"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
